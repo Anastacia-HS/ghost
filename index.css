@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+
+* {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#song1 {
+  background-color: #662f2f;
+}
+
+#song2 {
+  background-color: #272658;
+}
+
+#song3 {
+  background-color: #35266e;
+}
+
+#song4 {
+  background-color: #0b6827;
+}
+
+.content {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 750px;
+  height: 100vh;
+}
+
+.content span {
+  color: #ffffff;
+  font-family: 'Kirang Haerang', cursive;
+  font-size: 5rem;
+}
+
+.content iframe {
+  margin-top: 30px;
+}
